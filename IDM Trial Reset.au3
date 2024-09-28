@@ -34,7 +34,7 @@ Else
 EndIf
 
 Func GUI()
-	#Region ### BẮT ĐẦU Khu vực giao diện Koda ###
+	#Region ### BẮT ĐẦU Khu vực UI ###
 	Local $GUI = GUICreate('IDM crack (Qu4nh)', 325, 112)
 	Local $tabMain = GUICtrlCreateTab(1, 0, 325, 112)
 	Local $tabTrialReset = GUICtrlCreateTabItem('Gia hạn dùng thử')
@@ -56,7 +56,7 @@ Func GUI()
 	GUICtrlCreateTabItem('')
 	GUICtrlSetState($cbAutorun, $isAuto ? 1 : 4)
 	GUISetState(@SW_SHOW)
-	#EndRegion ### KẾT THÚC Khu vực UI###
+	#EndRegion ### KẾT THÚC Khu vực UI ###
 
 	While 1
 		Local $nMsg = GUIGetMsg()
