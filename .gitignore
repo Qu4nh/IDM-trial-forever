@@ -1,0 +1,8 @@
+# Only the distributable source files below are tracked.
+*
+!/.gitignore
+!/README.md
+!/LICENSE
+!/Open-IDM.cmd
+!/src/
+!/src/idm_trial_forever.py
